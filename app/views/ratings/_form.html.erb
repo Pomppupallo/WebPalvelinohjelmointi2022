@@ -1,0 +1,12 @@
+<%= form_with(model: rating) do |form| %>
+
+    <div>
+        <%= form.select :beer_id, options_from_collection_for_select(@beers, :id, :name) %>
+        score: <%= form.number_field :score %>
+    </div>
+
+    <div>
+        <%= form.submit :delete => "return confirm('WUUT')" %>
+    </div>
+
+<% end %>
