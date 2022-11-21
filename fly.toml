@@ -1,4 +1,4 @@
-# fly.toml file generated for beerrater on 2022-11-09T11:00:57+02:00
+# fly.toml file generated for beerrater on 2022-11-21T14:30:45+02:00
 
 app = "beerrater"
 kill_signal = "SIGINT"
